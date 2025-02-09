@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-mobile: 375px;
+  --breakpoint-desktop: 1440px;
+
+  --color-primary: hsl(172, 67%, 45%);
+  --color-alert: hsl(9, 35%, 75%);
+
+  --color-neutral-1: hsl(189, 41%, 97%);
+  --color-neutral-2: hsl(185, 41%, 84%);
+  --color-neutral-3: hsl(184, 14%, 56%);
+  --color-neutral-4: hsl(186, 14%, 43%);
+  --color-neutral-5: hsl(183, 100%, 15%);
+}
+
+@layer base {
+  body {
+    background: hsl(185, 14%, 90%);
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+  }
+}
